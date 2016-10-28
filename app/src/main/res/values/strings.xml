@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Memoria</string>
+    <string name="titulo">Manejo de memoria</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="boton_guardar">Guardar</string>
+    <string name="guardar_correcto">El archivo se ha creado</string>
+    <string name="error_guardar">Hubo un error en la escritura del archivo</string>
+</resources>
