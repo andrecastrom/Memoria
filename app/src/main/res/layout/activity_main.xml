@@ -25,11 +25,37 @@
         android:layout_height="wrap_content"
         android:hint="@string/hint_nombre"/>
 
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_email"/>
+
+    <Button
+        android:id="@+id/btnGuardarPreferencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_guardar_preferencia"
+        android:onClick="guardarPreferencia"/>
+
+    <Button
+        android:id="@+id/btnMostrarPreferencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_mostrar_preferencia"
+        android:onClick="mostrarPreferencia"/>
+
     <Button
         android:id="@+id/btnGuardarArchivo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/boton_guardar"
+        android:text="@string/boton_guardar_archivo"
         android:onClick="generarArchivo"/>
+
+    <TextView
+        android:id="@+id/tvPreferenciaCompartida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"/>
 
 </LinearLayout>

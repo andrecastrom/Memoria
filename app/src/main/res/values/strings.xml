@@ -2,7 +2,14 @@
     <string name="app_name">Memoria</string>
     <string name="titulo">Manejo de memoria</string>
     <string name="hint_nombre">Nombre</string>
-    <string name="boton_guardar">Guardar</string>
+    <string name="hint_email">Email</string>
+    <string name="boton_guardar_archivo">Guardar Archivo</string>
+    <string name="boton_guardar_preferencia">Guardar Preferencia</string>
+    <string name="boton_mostrar_preferencia">Mostrar  Preferencia</string>
     <string name="guardar_correcto">El archivo se ha creado</string>
     <string name="error_guardar">Hubo un error en la escritura del archivo</string>
+    <string name="pnombre">nombre</string>
+    <string name="pemail">email</string>
+    <string name="perror">No existe la variable</string>
+
 </resources>
